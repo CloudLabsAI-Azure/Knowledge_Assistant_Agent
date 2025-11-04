@@ -2,10 +2,10 @@
 
 ### Estimated Duration: 30 Minutes
 
-## Lab Overview
+## Overview
 In this lab, you will explore how to design and implement an intelligent **HR Knowledge Assistant** using **Copilot Studio** integrated with **Azure AI Search** to enable dynamic, data-driven employee interactions. You will learn how to connect enterprise HR knowledge bases, configure semantic search for precise information retrieval, and create conversational experiences that respond naturally to employee queries. This lab focuses on building a scalable and secure AI-powered assistant that enhances HR operations by automating common inquiries, improving accessibility to organizational information, and demonstrating how generative AI can transform employee support systems.
 
-## Lab Objective
+## Objective
 
 In this lab, you will perform the following:
 - Task 1: Create an Azure AI Search resource
@@ -29,10 +29,10 @@ In this task, you will be used to search the documents using AI capability. **Az
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image1.png)
 
-2. In the **AI Foundry page**, select **AI Search (1)** under **Use with AI Foundry** from the left pane.
+2. In the **AI Foundry page**, select **AI Search (1)** under **Use with AI Foundry** from the left pane. Select the **searchservice<inject key="DeploymentID" enableCopy="false"/> (2)** AI search which is pre-created.
 
     ![A screenshot of a search engine AI-generated content may be
-incorrect.](./media/image2.png)
+incorrect.](./media/im-01.png)
 
 3.  From the **Overview** page, copy the **Url** value and save it in a notepad to be used in a future exercise.
 
@@ -62,27 +62,22 @@ incorrect.](./media/image10.png)
 ## Task 2: Create a Storage account
 In this task, you will be using a **pre-existing Azure Storage account** that has been set up to store HR-related documents and resources. You will review its configuration to understand how data is organized and prepared for integration with **Azure AI Search**. This step ensures you are familiar with the storage structure, container access, and data types available, which will be essential for connecting and indexing the content in later tasks to power the HR Knowledge Assistant.
 
-1.  From the Azure portal Home page, select **Storage accounts**.
+1. In the Azure portal Home page, go to **Storage accounts**, and select the pre-existing storage account named **storage<inject key="DeploymentID" enableCopy="false"/>** that was created earlier.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image11.png)
+incorrect.](./media/im-02.png)
 
-2.  Select **Containers (1)** under **Data storage**. Select **document (2)** container.
-
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image17.png)
-
-3.  Select the created container **document** to upload the leave policy document into it.
+2.  Select **Containers (1)** under **Data storage** from the left navigation menu. Select **document (2)** container, to upload the leave policy document into it.
 
     ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image18.png)
+incorrect.](./media/im-03.png)
 
-8.  Click on **Upload (1)** and then select **Browse for files (2)**.
+3.  Click on **Upload (1)** and then select **Browse for files (2)**.
 
     ![A screenshot of a computer screen AI-generated content may be
 incorrect.](./media/image19.png)
 
-9.  Select the **LeavePolicy.docx** from **C:\Users\azureuser** and then click on **Upload**.
+4.  Select the **LeavePolicy.docx** from **C:\Users\azureuser** and then click on **Upload**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image20.png)
@@ -129,7 +124,7 @@ incorrect.](./media/image53.png)
 
     - Azure OpenAI Service – **openai<inject key="DeploymentID" enableCopy="false"/> (2)**
 
-    - Model deployment – Select **text-embedding-3-large (3)**
+    - Model deployment – Select **text-embedding-ada-002 (3)**
 
     - Authentication type – Select **System assigned identity (4)**
 
@@ -167,6 +162,8 @@ In this task, you will be creating a **Knowledge Assistant agent** in **Copilot 
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image59.png)
+
+    >**Note:** Make sure that you are in the correct enviornment which you created in Lab-01.
 
 3.  The agent creation page gets opened. Describe the agent in the **Describe** tab. Enter **You are a Knowledge assistant agent
 for HR who will answer questions related to leaves and leave policies to the employees** and select **Send**.

@@ -1,4 +1,4 @@
-# Exercise 1: Introduction to Retrieval-Augmented Generation (RAG) Automation and Copilot Studio 
+# Lab 1: Introduction to Automation and Copilot Studio 
 
 ### Estimated Duration: 30 Minutes
 
