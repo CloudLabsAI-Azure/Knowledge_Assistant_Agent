@@ -2,25 +2,38 @@
 
 ### Overall Estimated Duration : 1 Hour
 
-## Overview
+## Overview:
 
-This hands-on lab guides participants
+This hands-on lab guides participants through the process of creating a **Knowledge Assistant agent for HR** in **Copilot Studio**, powered by **Azure AI Search** to deliver intelligent, context-aware responses to employee queries. Participants will learn how to connect Copilot Studio to enterprise knowledge sources, configure Azure AI Search for semantic retrieval, and design conversational flows that improve HR service efficiency. The lab emphasizes integrating generative AI with organizational data to streamline HR support and enhance employee experience through automation and natural language understanding.
 
-## Objective
+## Objectives:
 
-Learn to build and automate  By the end of this lab, you will get insights on these concepts:
+Learn to build and automate an HR-focused Knowledge Assistant by connecting **Copilot Studio** with **Azure AI Search** to access and interpret HR documents intelligently; configure **data ingestion pipelines** to index and retrieve information securely; design **natural conversation flows** that provide personalized and compliant responses; implement **prompt engineering techniques** to ensure accurate, context-driven answers; and apply **governance and security best practices** for responsible AI integration in enterprise environments.
+
+**By the end of this lab, you will get insights on these concepts:**
+
+* Building AI-powered assistants in Microsoft Copilot Studio.
+* Integrating Azure AI Search for semantic content retrieval.
+* Automating HR processes through intelligent conversational design.
+* Managing enterprise data securely for generative AI use cases.
+* Applying prompt design, testing, and optimization for reliable results.
+
 
 ## Pre-requisites
 
 Participants should have the following prerequisites:
 
-- **Familiarity with Azure Resources:** Basic understanding of Azure services and the Azure portal for managing cloud resources.
+- **Familiarity with Azure Resources**: Basic understanding of Azure services and the Azure portal for managing cloud resources.
 
-- **Knowledge of Copilot Studio:** Familiarity with Copilot Studio and its capabilities for building AI-driven solutions.
+- **Knowledge of Copilot Studio**: Familiarity with Copilot Studio and its capabilities for building AI-driven solutions.
+
+- **Understanding of HR Processes**: Basic knowledge of HR functions such as employee onboarding, policy queries, and internal support workflows.
+
+- **Experience with AI and Search Concepts**: Awareness of how AI Search and natural language processing enhance information retrieval and user interaction.
 
 ## Getting Started with Lab
 
-Welcome to Building a Multimodal RAG Solution with Copilot Studio Hands-On-Lab! , We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
+Welcome to Create a Knowledge Assistant agent for HR in Copilot Studio that leverages Azure AI Search Hands-On-Lab! , We've prepared a seamless environment for you to explore and learn. Let's begin by making the most of this experience.
 
 >**Note:** If a PowerShell window appears once the environment is active, please don't close it. Minimize it instead of closing it and proceed with the tasks.
 

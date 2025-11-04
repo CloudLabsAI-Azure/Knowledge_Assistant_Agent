@@ -1,24 +1,22 @@
-# Lab 02: Create a Knowledge Assistant agent for HR in Copilot Studio that leverages Azure AI Search
+# Lab 02: Create a Knowledge Assistant agent for HR in Copilot Studio
 
-### Estimated Duration: 01 hour
+### Estimated Duration: 30 Minutes
 
 ## Lab Overview
-In this lab, you will explore
+In this lab, you will explore how to design and implement an intelligent **HR Knowledge Assistant** using **Copilot Studio** integrated with **Azure AI Search** to enable dynamic, data-driven employee interactions. You will learn how to connect enterprise HR knowledge bases, configure semantic search for precise information retrieval, and create conversational experiences that respond naturally to employee queries. This lab focuses on building a scalable and secure AI-powered assistant that enhances HR operations by automating common inquiries, improving accessibility to organizational information, and demonstrating how generative AI can transform employee support systems.
 
 ## Lab Objective
 
 In this lab, you will perform the following:
 - Task 1: Create an Azure AI Search resource
+- Task 2: Create a Storage account
+- Task 3: Create a vector index
+- Task 4: Create a knowledge assistant agent
+- Task 5: Add the Azure AI Search as a knowledge source
   
 ## Task 1: Create an Azure AI Search resource
 
-In this task, you will create an Azure AI Search resource from the
-Azure portal. This will be used to search the documents using AI
-capability.
-
-**Azure AI Search** is a cloud-based service for searching within your
-privately curated data. It uses a combination of Microsoft’s AI and
-JSON-based indexes to provide fast, relevant search results.
+In this task, you will be used to search the documents using AI capability. **Azure AI Search** is a cloud-based service for searching within your privately curated data. It uses a combination of Microsoft’s AI and JSON-based indexes to provide fast, relevant search results.
 
 1.  Open a edge browser and login to Azure portal with your credentials.
 
@@ -62,6 +60,7 @@ incorrect.](./media/image9.png)
 incorrect.](./media/image10.png)
 
 ## Task 2: Create a Storage account
+In this task, you will be using a **pre-existing Azure Storage account** that has been set up to store HR-related documents and resources. You will review its configuration to understand how data is organized and prepared for integration with **Azure AI Search**. This step ensures you are familiar with the storage structure, container access, and data types available, which will be essential for connecting and indexing the content in later tasks to power the HR Knowledge Assistant.
 
 1.  From the Azure portal Home page, select **Storage accounts**.
 
@@ -91,7 +90,9 @@ incorrect.](./media/image20.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image21.png)
 
-## Task 4: Create a vector index
+## Task 3: Create a vector index
+In this task, you will be creating a **vector index** in **Azure AI Search** to enable intelligent, semantic search capabilities for your HR Knowledge Assistant. You will configure the index to process both text and embedded vector data, allowing the assistant to understand the context and meaning behind employee queries rather than relying solely on keyword matching. This setup will enhance the accuracy and relevance of responses by leveraging AI-powered embeddings, ensuring that the HR assistant can deliver precise and context-aware answers from the connected data sources.
+
 
 1.  Navigate back to the Azure portal, open the **searchservice<inject key="DeploymentID" enableCopy="false"/>** AI Search service resource that we created in the previous task.
 
@@ -155,7 +156,8 @@ incorrect.](./media/image56.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image57.png)
 
-## Task 5: Create a knowledge assistant agent
+## Task 4: Create a knowledge assistant agent
+In this task, you will be creating a **Knowledge Assistant agent** in **Copilot Studio** that connects to your **Azure AI Search** vector index to deliver intelligent, conversational responses to HR-related queries. You will configure the agent’s behavior, link it to the search index, and design simple conversation flows, enabling the assistant to retrieve and present accurate, context-aware information from HR knowledge sources.
 
 1.  Open a new broser and login to [https://copilotstudio.microsoft.com](https://copilotstudio.microsoft.com/) using your login credentials.
 
@@ -185,7 +187,9 @@ incorrect.](./media/image61.png)
 
     ![image](./media/image64.png)
 
-## Task 6: Add the Azure AI Search as a knowledge source
+## Task 5: Add the Azure AI Search as a knowledge source
+In this task, you will be adding **Azure AI Search** as a **knowledge source** for your **HR Knowledge Assistant** in **Copilot Studio**. You will connect the assistant to the existing search service by providing the endpoint, index name, and authentication key, allowing it to retrieve relevant HR information dynamically. This integration enables the assistant to leverage semantic search capabilities, ensuring responses are accurate, contextually relevant, and based on the most up-to-date organizational data.
+
 
 1.  From the **Overview** page of the agent, select **Add knowledge**.
 
@@ -202,21 +206,17 @@ incorrect.](./media/image66.png)
     ![A screenshot of a search engine AI-generated content may be
 incorrect.](./media/image67.png)
 
-4.  Enter the **Endpoint url** and the **Admin key** values which we
-    saved to a notepad in a previous exercise and then click
-    on **Create** to create the connection.
+4.  Enter the **Endpoint url** and the **Admin key** values which we saved to a notepad in a previous exercise and then click on **Create** to create the connection.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image68.png)
 
-5.  Once the connection is established, the available index is listed
-    and already selected. Click on **Add to agent**.
+5.  Once the connection is established, the available index is listed and already selected. Click on **Add to agent**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image69.png)
 
-6.  The AI Search service is added as a knowledge source to the agent and is in **Ready** state now. Ensure that the **Web search** option
-    is **disabled** in the Knowledge section.
+6.  The AI Search service is added as a knowledge source to the agent and is in **Ready** state now. Ensure that the **Web search** option is **disabled** in the Knowledge section.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image70.png)
@@ -234,8 +234,10 @@ incorrect.](./media/image70.png)
    
 ## Summary
 In this lab, you have completed the following tasks:
-- 
+- Created an Azure AI Search resource
+- Created a Storage account
+- Created a vector index
+- Created a knowledge assistant agent
+- Added the Azure AI Search as a knowledge source
 
-### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
-
-![](./media/9-7-next.png)
+### You have successfully completed the lab.
