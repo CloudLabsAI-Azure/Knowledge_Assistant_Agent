@@ -1,0 +1,21 @@
+[
+    {
+      "Name": "Create a Knowledge Assistant agent for HR in Copilot Studio that leverages Azure AI Search",
+      "Language": "English",
+      "BaseURL": "https://github.com/CloudLabsAI-Azure/Knowledge_Assistant_Agent",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Knowledge_Assistant_Agent/refs/heads/main/Labs/Getting-started.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Knowledge_Assistant_Agent/refs/heads/main/Labs/Lab-01.md",
+          "Order": 2
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Knowledge_Assistant_Agent/refs/heads/main/Labs/Lab-02.md",
+            "Order": 3
+        }
+      ]
+    }
+  ]
