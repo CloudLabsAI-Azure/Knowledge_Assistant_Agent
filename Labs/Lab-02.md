@@ -240,6 +240,4 @@ In this lab, you have completed the following tasks:
 - Created a knowledge assistant agent
 - Added the Azure AI Search as a knowledge source
 
-### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
-
-![](./media/next-03.png)
+### You have successfully completed the lab.
