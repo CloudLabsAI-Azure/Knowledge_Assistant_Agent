@@ -77,7 +77,7 @@ incorrect.](./media/im-03.png)
     ![A screenshot of a computer screen AI-generated content may be
 incorrect.](./media/image19.png)
 
-4.  Select the **LeavePolicy.docx** from **C:\datasets** and then click on **Upload**.
+4.  Select the **LeavePolicy.docx** from **C:\datasets\CloudLabsAI-Azure-Knowledge_Assistant_Agent-43015a3** and then click on **Upload**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image20.png)
