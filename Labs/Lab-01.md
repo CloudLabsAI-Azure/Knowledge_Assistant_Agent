@@ -38,5 +38,3 @@ In this exercise, you explored the fundamentals of automation and the key featur
 
 
 ### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
-
-![](./media/next-03.png)
