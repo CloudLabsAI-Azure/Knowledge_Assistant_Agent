@@ -41,25 +41,25 @@ Welcome to Create a Knowledge Assistant agent for HR in Copilot Studio that leve
 
 Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
 
-![](./media/gs-1.png)
+![](./media/im-06.png)
 
 ### Exploring Your Lab Resources
 
-To get a better understanding of your Lab resources and credentials, navigate to the Environment tab.
+To get a better understanding of your Lab resources and credentials, navigate to the **Environment** tab.
 
-![](./media/gs-2.png)
+![](./media/im-07.png)
 
 ### Utilizing the Split Window Feature
 
 For convenience, you can open the Lab guide in a separate window by selecting the Split Window button from the Top right corner
 
-![](./media/gs-3.png)
+![](./media/im-08.png)
 
 ### Managing Your Virtual Machine
 
 Feel free to start, stop, or restart your virtual machine as needed from the Resources tab. Your experience is in your hands!
 
-![](./media/gs-4.png)
+![](./media/im-09.png)
 
 ## Let's Get Started with Azure Portal
 
@@ -119,7 +119,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 1. In the JumpVM, click on **Microsoft Edge** shortcut of Microsoft Edge browser which is created on desktop.
 
-   ![](./media/gs-1.png)
+   ![](./media/im-10.png)
 
 1. Open a new browser tab and navigate to [Power Apps](https://make.powerapps.com/) portal.
 
@@ -127,19 +127,13 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    - Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-     ![](./media/gs-2.png)
-
 1. Now, enter the following password and click on **Sign in**.
 
    - Password: <inject key="AzureAdUserPassword"></inject>
 
-     ![](./media/gs-3.png)
-
      >**Note:** If you see the Action Required dialog box, then select Ask Later option.
      
 1. If you see the pop-up **Stay Signed in?**, click No.
-
-   ![](./media/gs-4.png)
 
 1. You have now successfully logged in to the Power Apps portal.
 
