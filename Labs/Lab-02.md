@@ -163,7 +163,10 @@ In this task, you will be creating a **Knowledge Assistant agent** in **Copilot 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image59.png)
 
-    >**Note:** Make sure that you are in the correct enviornment which you created in Lab-01.
+    >**Note:** Make sure that you are in the correct enviornment which you created in **Lab-01**.
+    
+    ![A screenshot of a computer AI-generated content may be
+incorrect.](./media/im-05.png)
 
 3.  The agent creation page gets opened. Describe the agent in the **Describe** tab. Enter **You are a Knowledge assistant agent
 for HR who will answer questions related to leaves and leave policies to the employees** and select **Send**.

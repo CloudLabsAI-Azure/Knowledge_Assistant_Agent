@@ -145,11 +145,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
    ![](./media/gs-5.png)
 
-1. Once done, select **tables** from the left menu and click on **Create with Excel or .CSV file**.
+1. Once done, select **Tables (1)** from the left menu and click on **Create with Excel or .CSV file (2)**.
 
-   ![](./media/ex3img73.png)
+   ![](./media/ex3img73-1.png)
 
-1. In the pop up window to create a environment, Click on **Create**. This will create a new power platform developer environment.
+1. In the pop up window to create a environment, Click on **Create**. This will create a new power platform developer environment. On the **Create a table** page, select **Cancel**.
 
    ![](./media/ex3img74.png)
 
