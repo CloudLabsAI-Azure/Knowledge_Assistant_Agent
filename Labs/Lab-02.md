@@ -12,7 +12,7 @@ In this lab, you will perform the following:
 - Task 4: Create a knowledge assistant agent
 - Task 5: Add the Azure AI Search as a knowledge source
   
-## Task 1: Create an Azure AI Search resource
+### Task 1: Create an Azure AI Search resource
 
 In this task, you will be used to search the documents using AI capability. **Azure AI Search** is a cloud-based service for searching within your privately curated data. It uses a combination of Microsoft’s AI and JSON-based indexes to provide fast, relevant search results.
 
@@ -59,7 +59,7 @@ incorrect.](./media/image9.png)
     ![A screenshot of a computer error AI-generated content may be
 incorrect.](./media/image10.png)
 
-## Task 2: Create a Storage account
+### Task 2: Create a Storage account
 In this task, you will be using a **pre-existing Azure Storage account** that has been set up to store HR-related documents and resources. You will review its configuration to understand how data is organized and prepared for integration with **Azure AI Search**. This step ensures you are familiar with the storage structure, container access, and data types available, which will be essential for connecting and indexing the content in later tasks to power the HR Knowledge Assistant.
 
 1. In the Azure portal Home page, go to **Storage accounts**, and select the pre-existing storage account named **storage<inject key="DeploymentID" enableCopy="false"/>** that was created earlier.
@@ -85,7 +85,7 @@ incorrect.](./media/image20.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image21.png)
 
-## Task 3: Create a vector index
+### Task 3: Create a vector index
 In this task, you will be creating a **vector index** in **Azure AI Search** to enable intelligent, semantic search capabilities for your HR Knowledge Assistant. You will configure the index to process both text and embedded vector data, allowing the assistant to understand the context and meaning behind employee queries rather than relying solely on keyword matching. This setup will enhance the accuracy and relevance of responses by leveraging AI-powered embeddings, ensuring that the HR assistant can deliver precise and context-aware answers from the connected data sources.
 
 
@@ -151,7 +151,7 @@ incorrect.](./media/image56.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image57.png)
 
-## Task 4: Create a knowledge assistant agent
+### Task 4: Create a knowledge assistant agent
 In this task, you will be creating a **Knowledge Assistant agent** in **Copilot Studio** that connects to your **Azure AI Search** vector index to deliver intelligent, conversational responses to HR-related queries. You will configure the agent’s behavior, link it to the search index, and design simple conversation flows, enabling the assistant to retrieve and present accurate, context-aware information from HR knowledge sources.
 
 1.  Open a new broser and login to [https://copilotstudio.microsoft.com](https://copilotstudio.microsoft.com/) using your login credentials.
@@ -187,7 +187,7 @@ incorrect.](./media/image61.png)
 
     ![image](./media/image64.png)
 
-## Task 5: Add the Azure AI Search as a knowledge source
+### Task 5: Add the Azure AI Search as a knowledge source
 In this task, you will be adding **Azure AI Search** as a **knowledge source** for your **HR Knowledge Assistant** in **Copilot Studio**. You will connect the assistant to the existing search service by providing the endpoint, index name, and authentication key, allowing it to retrieve relevant HR information dynamically. This integration enables the assistant to leverage semantic search capabilities, ensuring responses are accurate, contextually relevant, and based on the most up-to-date organizational data.
 
 
@@ -240,4 +240,6 @@ In this lab, you have completed the following tasks:
 - Created a knowledge assistant agent
 - Added the Azure AI Search as a knowledge source
 
-### You have successfully completed the lab.
+### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.
+
+![](./media/next-03.png)
