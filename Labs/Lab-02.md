@@ -27,7 +27,7 @@ In this task, you will be used to search the documents using AI capability. **Az
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image1.png)
 
-2. In the **AI Foundry page**, select **AI Search (1)** under **Use with AI Foundry** from the left pane. Select the **searchservice<inject key="DeploymentID" enableCopy="false"/> (2)** AI search which is pre-created.
+2. In the **AI Foundry page**, select **AI Search (1)** under **Use with AI Foundry** from the left pane. Select the **searchservice-<inject key="DeploymentID" enableCopy="false"/> (2)** AI search which is pre-created.
 
     ![A screenshot of a search engine AI-generated content may be
 incorrect.](./media/im-01.png)
@@ -51,6 +51,8 @@ incorrect.](./media/image8.png)
 
     ![A screenshot of a search engine AI-generated content may be
 incorrect.](./media/image9.png)
+
+    >**Note:** If it is already **On**, then please proceed to the next task.
 
 7. Select **Yes** in the **Enable system assigned managed identity** confirmation dialog.
 
@@ -87,7 +89,7 @@ incorrect.](./media/image21.png)
 In this task, you will be creating a **vector index** in **Azure AI Search** to enable intelligent, semantic search capabilities for your HR Knowledge Assistant. You will configure the index to process both text and embedded vector data, allowing the assistant to understand the context and meaning behind employee queries rather than relying solely on keyword matching. This setup will enhance the accuracy and relevance of responses by leveraging AI-powered embeddings, ensuring that the HR assistant can deliver precise and context-aware answers from the connected data sources.
 
 
-1.  Navigate back to the Azure portal, open the **searchservice<inject key="DeploymentID" enableCopy="false"/>** AI Search service resource that we created in the previous task.
+1.  Navigate back to the Azure portal, open the **searchservice-<inject key="DeploymentID" enableCopy="false"/>** AI Search service resource that we created in the previous task.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image49.png)
@@ -120,7 +122,7 @@ incorrect.](./media/image53.png)
 
 6.  In the Vectorize your text screen, the **subscription (1)** is pre-populated. Enter the below details and click **Next (6)**.
 
-    - Azure OpenAI Service – **openai<inject key="DeploymentID" enableCopy="false"/> (2)**
+    - Azure OpenAI Service – **openai-<inject key="DeploymentID" enableCopy="false"/> (2)**
 
     - Model deployment – Select **text-embedding-ada-002 (3)**
 
@@ -129,7 +131,7 @@ incorrect.](./media/image53.png)
     - Select the checkbox to **acknowledge that connecting to an Azure OpenAI service will incur additional costs to my account (5)**.
 
         ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image54.png)
+    incorrect.](./media/im-04.png)
 
 7.  Select Next in the **Vectorize and enrich your images** screen since we are not dealing with images here and select **Next** in the **Advanced settings** screen as well.
 
