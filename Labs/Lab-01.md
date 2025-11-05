@@ -1,4 +1,4 @@
-# Lab 1: Getting Started with Automation and Copilot Studio
+# Lab 01: Getting Started with Automation and Copilot Studio
 
 ## Overview
 
@@ -35,5 +35,6 @@ In this task, you will log in to Copilot Studio.
 ## Summary
 
 In this exercise, you explored the fundamentals of automation and the key features of Copilot Studio. You learned how to design, configure, and manage automated workflows to streamline repetitive tasks and enhance productivity. This hands-on experience demonstrated how automation can be applied to real-world scenarios to improve efficiency and integrate intelligent assistance into daily operations.
+
 
 ### You have successfully completed this Exercise!
