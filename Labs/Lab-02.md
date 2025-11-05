@@ -1,7 +1,5 @@
 # Lab 02: Create a Knowledge Assistant agent for HR in Copilot Studio
 
-### Estimated Duration: 30 Minutes
-
 ## Overview
 In this lab, you will explore how to design and implement an intelligent **HR Knowledge Assistant** using **Copilot Studio** integrated with **Azure AI Search** to enable dynamic, data-driven employee interactions. You will learn how to connect enterprise HR knowledge bases, configure semantic search for precise information retrieval, and create conversational experiences that respond naturally to employee queries. This lab focuses on building a scalable and secure AI-powered assistant that enhances HR operations by automating common inquiries, improving accessibility to organizational information, and demonstrating how generative AI can transform employee support systems.
 
