@@ -79,61 +79,17 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
      ![](./media/gs-7.png)
 
-1. If an **Action required** pop-up window appears, click on **Next**.
-
-   ![Ask Later](./media/ask-later.png)
-
-1. On **Start by getting the app** page, click on **Next**.
-
-1. Click on **Next** twice.
-
-1. In **Android**, go to the Play Store, search for **Microsoft Authenticator,** and tap on **Install**.
-
-   ![Install](./media/mobile.jpg)
-
-   >Note: For **iOS**, open the App Store and repeat the steps.
-
-   >Note: Skip If already installed.
-   
-1. Open the app and click on **Scan a QR code**.
-
-1. Scan the **QR code (1)** visible on the screen and click on **Next (2)**.
-
-   ![QR code](./media/demo001.png)
-
-1. Enter the digit displayed on the screen in the Authenticator app on mobile and tap on **Yes**.
-1. Once the notification is approved, click on **Next (1)**.
-
-   ![Approved](./media/demo002.png)
-
-1. Click on **Done**.
 1. If prompted to stay signed in, you can click **"Yes."**
-
-1. Tap on **Finish** in the mobile device.
-
-   >NOTE: While logging in again, enter the digits displayed on the screen in the **Authenticator app** and click on Yes.
 
 1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click **"Cancel"** to skip the tour.
 
 ## Let's Get Started with Power Apps Portal
 
-1. In the JumpVM, click on **Microsoft Edge** shortcut of Microsoft Edge browser which is created on desktop.
+1. Open a new browser tab, copy and paste the link `https://make.powerapps.com/` in the browser tab.
 
-   ![](./media/im-10.png)
+1. On the **Welcome to Power Apps** page, select **Get Started**.
 
-1. Open a new browser tab and navigate to [Power Apps](https://make.powerapps.com/) portal.
-
-1. On the **Sign into Microsoft** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
-
-   - Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-1. Now, enter the following password and click on **Sign in**.
-
-   - Password: <inject key="AzureAdUserPassword"></inject>
-
-     >**Note:** If you see the Action Required dialog box, then select Ask Later option.
-     
-1. If you see the pop-up **Stay Signed in?**, click No.
+   ![](./media/im-11.png)
 
 1. You have now successfully logged in to the Power Apps portal.
 
@@ -146,6 +102,8 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 1. In the pop up window to create a environment, Click on **Create**. This will create a new power platform developer environment. On the **Create a table** page, select **Cancel**.
 
    ![](./media/ex3img74.png)
+
+   ![](./media/im12.png)
 
    > **Note:** The environment creation process may take some time. If an error occurs, please click Create again to ensure the developer environment is provisioned. If the issue persists, kindly reach out so that an administrator can create the environment on your behalf, allowing you to continue with the lab.
 
@@ -161,8 +119,6 @@ The CloudLabs support team is available 24/7, 365 days a year, via email and liv
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
 Now, click on the **Next** from lower right corner to move on next page.
-
-![](./media/gs-5.png)
 
 ## Happy Learning!!
 
