@@ -85,7 +85,11 @@ Feel free to start, stop, or restart your virtual machine as needed from the Res
 
 ## Let's Get Started with Power Apps Portal
 
-1. Open a new browser tab, copy and paste the link `https://make.powerapps.com/` in the browser tab.
+1. Open a new browser tab, copy and paste the below link in the browser tab.
+
+   ```
+   https://make.powerapps.com/
+   ```
 
 1. On the **Welcome to Power Apps** page, select **Get Started**.
 

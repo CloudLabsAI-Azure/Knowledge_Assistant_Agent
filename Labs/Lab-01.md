@@ -14,7 +14,11 @@ You will be able to complete the following tasks:
 
 In this task, you will log in to Copilot Studio.
 
-1. Navigate to **Copilot Studio**,  open a new tab copy and paste the link in the browser tab: `https://go.microsoft.com/fwlink/p/?linkid=2252408&clcid=0x409&culture=en-us&country=us`
+1. Navigate to **Copilot Studio**,  open a new tab copy and paste the link in the browser tab: 
+
+   ```
+   https://go.microsoft.com/fwlink/p/?linkid=2252408&clcid=0x409&culture=en-us&country=us
+   ```
 
 1. On Welcome to Microsoft Copilot Studio page, Click on **Get Started**.
 
