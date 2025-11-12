@@ -99,21 +99,21 @@ In this task, you will be creating a **vector index** in **Azure AI Search** to 
 
 1.  Navigate back to the home page of Azure portal, open the **searchservice-<inject key="DeploymentID" enableCopy="false"/>** AI Search service resource that we created in the previous task.
 
-    ![](./media/image49.png)
+      ![](./media/image49.png)
 
 1. On the **Overview** page, select **Import data (new)**.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image50.png)
 
 1. On the **Import data (new)** page, select the **Azure Blob Storage** option.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image51.png)
 
 1. Select the **RAG** option on the **What scenarios are you targeting?** page.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image52.png)
 
 1.  Enter the below details, accept the other values as default and click **Next (4)**.
@@ -124,7 +124,7 @@ incorrect.](./media/image52.png)
 
     - Blob container – Select **documents (3)**
 
-        ![A screenshot of a computer AI-generated content may be
+          ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/im17.png)
 
 1.  In the Vectorize your text screen, the **subscription (1)** is pre-populated. Enter the below details and click **Next (6)**.
@@ -137,25 +137,25 @@ incorrect.](./media/im17.png)
 
     - Select the checkbox to **acknowledge that connecting to an Azure OpenAI service will incur additional costs to my account (5)**.
 
-        ![A screenshot of a computer AI-generated content may be
+          ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/im20.png)
 
 1.  Select Next in the **Vectorize and enrich your images** screen since we are not dealing with images here and select **Next** in the **Advanced settings** screen as well.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image54-(1).png)
     
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image55.png)
 
 1.  Select **Create** in the **Review + create** screen.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image56.png)
 
 1.  Click on **Close** in the success dialog box.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image57.png)
 
 <validation step="0aaf05b9-4cd1-4abe-ad8b-968b5a38ce67" />
@@ -165,42 +165,40 @@ incorrect.](./media/image57.png)
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
-
 ### Task 4: Create a knowledge assistant agent
 
 In this task, you will be creating a **Knowledge Assistant agent** in **Copilot Studio** that connects to your **Azure AI Search** vector index to deliver intelligent, conversational responses to HR-related queries. You will configure the agent’s behavior, link it to the search index, and design simple conversation flows, enabling the assistant to retrieve and present accurate, context-aware information from HR knowledge sources.
 
 1.  Navigate back to the **Copilot Studio** page. 
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image59.png)
 
     >**Note:** Make sure that you are in the correct enviornment which you created in **Lab-01**.
     
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/im18.png)
 
 1.  The agent creation page gets opened. Describe the agent in the **Describe** tab. Enter **You are a Knowledge assistant agent
 for HR who will answer questions related to leaves and leave policies to the employees** and select **Send**.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image60.png)
 
 1.  The copilot suggests a name to the agent. Click on **Create** to create the agent.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image61.png)
 
 1.  Once the agent is created, in the **Test** pane, enter **How many days of Maternity leaves can I avail? (1)** and click **Send (2)**
 
-    ![image](./media/image63.png)
+      ![image](./media/image63.png)
 
 1.  It gives a generalized reply as in the screenshot below.
 
-    ![image](./media/image64.png)
+      ![image](./media/image64.png)
 
     >**Note:** The output may differ slightly, and while it won’t be identical, it will appear similar to the example shown in the screenshot.
-
 
 ### Task 5: Add the Azure AI Search as a knowledge source
 
@@ -208,46 +206,46 @@ In this task, you will be adding **Azure AI Search** as a **knowledge source** f
 
 1.  Select the **Overview (1)** page of the agent, select **Add knowledge (2)**.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image65-1.png)
 
 1. Select Azure AI Search from the list of knowledge sources available.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image66.png)
 
 1.  Click on the **drop-down (1)** next to **Not connected** in the next screen and select **Create new connection (2)**.
 
-    ![A screenshot of a search engine AI-generated content may be
+      ![A screenshot of a search engine AI-generated content may be
 incorrect.](./media/image67.png)
 
 1.  Enter the **Endpoint url (1)** and the **Admin key (2)** values which we saved to a notepad in a previous exercise and then click on **Create (3)** to create the connection.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image68-1.png)
 
 1.  Once the connection is established, the available index is listed and already selected. Click on **Add to agent**.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image69.png)
 
 1.  The AI Search service is added as a knowledge source to the agent and is in **Ready** state now. Ensure that the **Web search** option is **disabled** in the Knowledge section.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image70.png)
 
 1.  Now, let’s test the agent using the same question we tried earlier. Before doing so, select the **Start a new session** button to begin a new session.
 
-    ![A screenshot of a computer AI-generated content may be
+      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/im19.png)
 
 1.  In the Test pane, enter **How many days of Maternity leaves can I avail?** and click **Send.**
 
-    ![image](./media/image71.png)
+      ![image](./media/image71.png)
 
 1.  You can see that the response from the agent now is from the document uploaded in the AI Search service.
 
-    ![image](./media/im6.png)
+      ![image](./media/im6.png)
 
     >**Note:** The output may vary; it won’t be exactly the same, but it will look similar to this.
 
