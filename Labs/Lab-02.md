@@ -96,11 +96,9 @@ incorrect.](./media/im16.png)
 ### Task 3: Create a vector index
 In this task, you will be creating a **vector index** in **Azure AI Search** to enable intelligent, semantic search capabilities for your HR Knowledge Assistant. You will configure the index to process both text and embedded vector data, allowing the assistant to understand the context and meaning behind employee queries rather than relying solely on keyword matching. This setup will enhance the accuracy and relevance of responses by leveraging AI-powered embeddings, ensuring that the HR assistant can deliver precise and context-aware answers from the connected data sources.
 
-
 1.  Navigate back to the home page of Azure portal, open the **searchservice-<inject key="DeploymentID" enableCopy="false"/>** AI Search service resource that we created in the previous task.
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](./media/image49.png)
+    ![](./media/image49.png)
 
 2. On the **Overview** page, select **Import data (new)**.
 
