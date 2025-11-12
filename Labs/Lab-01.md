@@ -40,5 +40,4 @@ In this task, you will log in to Copilot Studio.
 
 In this exercise, you explored the fundamentals of automation and the key features of Copilot Studio. You learned how to design, configure, and manage automated workflows to streamline repetitive tasks and enhance productivity. This hands-on experience demonstrated how automation can be applied to real-world scenarios to improve efficiency and integrate intelligent assistance into daily operations.
 
-
 ### You have successfully completed the lab. Click on **Next >>** to proceed with the next Lab.

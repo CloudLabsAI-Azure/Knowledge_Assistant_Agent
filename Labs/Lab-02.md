@@ -27,34 +27,34 @@ In this task, you will be used to search the documents using AI capability. **Az
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image1.png)
 
-2. In the **AI Foundry page**, select **AI Search (1)** under **Use with AI Foundry** from the left pane. Select the **searchservice-<inject key="DeploymentID" enableCopy="false"/> (2)** AI search which is pre-created.
+1. In the **AI Foundry page**, select **AI Search (1)** under **Use with AI Foundry** from the left pane. Select the **searchservice-<inject key="DeploymentID" enableCopy="false"/> (2)** AI search which is pre-created.
 
     ![A screenshot of a search engine AI-generated content may be
 incorrect.](./media/im-01.png)
 
-3.  From the **Overview** page, copy the **Url** value and save it in a notepad to be used in a future exercise.
+1.  From the **Overview** page, copy the **Url** value and save it in a notepad to be used in a future exercise.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image6.png)
 
-4.  Select **Keys (2)** under **Settings (1)** from the left pane. Copy the **Primary admin key (3)** and save it in a notepad for using it in the upcoming exercises.
+1.  Select **Keys (2)** under **Settings (1)** from the left pane. Copy the **Primary admin key (3)** and save it in a notepad for using it in the upcoming exercises.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image7.png)
 
-5.  Select **Identity (2)** under **Settings (1)** from the left pane.
+1.  Select **Identity (2)** under **Settings (1)** from the left pane.
 
     ![A screenshot of a search engine AI-generated content may be
 incorrect.](./media/image8.png)
 
-6.  Toggle the Status to **On (1)** under **System assigned** and then click on **Save (2)**.
+1.  Toggle the Status to **On (1)** under **System assigned** and then click on **Save (2)**.
 
     ![A screenshot of a search engine AI-generated content may be
 incorrect.](./media/image9.png)
 
     >**Note:** If it is already **On**, then please proceed to the next task.
 
-7. Select **Yes** in the **Enable system assigned managed identity** confirmation dialog.
+1. Select **Yes** in the **Enable system assigned managed identity** confirmation dialog.
 
     ![A screenshot of a computer error AI-generated content may be
 incorrect.](./media/image10.png)
@@ -68,17 +68,17 @@ In this task, you will be using a **pre-existing Azure Storage account** that ha
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/im-02.png)
 
-2.  Select **Containers (1)** under **Data storage** from the left navigation menu. Select **documents (2)** container, to upload the leave policy document into it.
+1.  Select **Containers (1)** under **Data storage** from the left navigation menu. Select **documents (2)** container, to upload the leave policy document into it.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/im13.png)
 
-3.  Click on **Upload (1)** and then select **Browse for files (2)**.
+1.  Click on **Upload (1)** and then select **Browse for files (2)**.
 
     ![A screenshot of a computer screen AI-generated content may be
 incorrect.](./media/im15.png)
 
-4.  Select the **LeavePolicy.docx** from **C:\datasets\CloudLabsAI-Azure-Knowledge_Assistant_Agent-43015a3** and then click on **Upload**.
+1.  Select the **LeavePolicy.docx** from **C:\datasets\CloudLabsAI-Azure-Knowledge_Assistant_Agent-43015a3** and then click on **Upload**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image20.png)
@@ -94,28 +94,29 @@ incorrect.](./media/im16.png)
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
 ### Task 3: Create a vector index
+
 In this task, you will be creating a **vector index** in **Azure AI Search** to enable intelligent, semantic search capabilities for your HR Knowledge Assistant. You will configure the index to process both text and embedded vector data, allowing the assistant to understand the context and meaning behind employee queries rather than relying solely on keyword matching. This setup will enhance the accuracy and relevance of responses by leveraging AI-powered embeddings, ensuring that the HR assistant can deliver precise and context-aware answers from the connected data sources.
 
 1.  Navigate back to the home page of Azure portal, open the **searchservice-<inject key="DeploymentID" enableCopy="false"/>** AI Search service resource that we created in the previous task.
 
     ![](./media/image49.png)
 
-2. On the **Overview** page, select **Import data (new)**.
+1. On the **Overview** page, select **Import data (new)**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image50.png)
 
-3. On the **Import data (new)** page, select the **Azure Blob Storage** option.
+1. On the **Import data (new)** page, select the **Azure Blob Storage** option.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image51.png)
 
-4. Select the **RAG** option on the **What scenarios are you targeting?** page.
+1. Select the **RAG** option on the **What scenarios are you targeting?** page.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image52.png)
 
-5.  Enter the below details, accept the other values as default and click **Next (4)**.
+1.  Enter the below details, accept the other values as default and click **Next (4)**.
 
     - Subscription – Select your **assigned subscription (1)**
 
@@ -126,7 +127,7 @@ incorrect.](./media/image52.png)
         ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/im17.png)
 
-6.  In the Vectorize your text screen, the **subscription (1)** is pre-populated. Enter the below details and click **Next (6)**.
+1.  In the Vectorize your text screen, the **subscription (1)** is pre-populated. Enter the below details and click **Next (6)**.
 
     - Azure OpenAI Service – **openai-<inject key="DeploymentID" enableCopy="false"/> (2)**
 
@@ -139,7 +140,7 @@ incorrect.](./media/im17.png)
         ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/im20.png)
 
-7.  Select Next in the **Vectorize and enrich your images** screen since we are not dealing with images here and select **Next** in the **Advanced settings** screen as well.
+1.  Select Next in the **Vectorize and enrich your images** screen since we are not dealing with images here and select **Next** in the **Advanced settings** screen as well.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image54-(1).png)
@@ -147,12 +148,12 @@ incorrect.](./media/im17.png)
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image55.png)
 
-8.  Select **Create** in the **Review + create** screen.
+1.  Select **Create** in the **Review + create** screen.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image56.png)
 
-9.  Click on **Close** in the success dialog box.
+1.  Click on **Close** in the success dialog box.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image57.png)
@@ -164,7 +165,9 @@ incorrect.](./media/image57.png)
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
+
 ### Task 4: Create a knowledge assistant agent
+
 In this task, you will be creating a **Knowledge Assistant agent** in **Copilot Studio** that connects to your **Azure AI Search** vector index to deliver intelligent, conversational responses to HR-related queries. You will configure the agent’s behavior, link it to the search index, and design simple conversation flows, enabling the assistant to retrieve and present accurate, context-aware information from HR knowledge sources.
 
 1.  Navigate back to the **Copilot Studio** page. 
@@ -177,78 +180,79 @@ incorrect.](./media/image59.png)
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/im18.png)
 
-2.  The agent creation page gets opened. Describe the agent in the **Describe** tab. Enter **You are a Knowledge assistant agent
+1.  The agent creation page gets opened. Describe the agent in the **Describe** tab. Enter **You are a Knowledge assistant agent
 for HR who will answer questions related to leaves and leave policies to the employees** and select **Send**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image60.png)
 
-3.  The copilot suggests a name to the agent. Click on **Create** to create the agent.
+1.  The copilot suggests a name to the agent. Click on **Create** to create the agent.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image61.png)
 
-4.  Once the agent is created, in the **Test** pane, enter **How many days of Maternity leaves can I avail? (1)** and click **Send (2)**
+1.  Once the agent is created, in the **Test** pane, enter **How many days of Maternity leaves can I avail? (1)** and click **Send (2)**
 
     ![image](./media/image63.png)
 
-5.  It gives a generalized reply as in the screenshot below.
+1.  It gives a generalized reply as in the screenshot below.
 
     ![image](./media/image64.png)
 
     >**Note:** The output may differ slightly, and while it won’t be identical, it will appear similar to the example shown in the screenshot.
 
-### Task 5: Add the Azure AI Search as a knowledge source
-In this task, you will be adding **Azure AI Search** as a **knowledge source** for your **HR Knowledge Assistant** in **Copilot Studio**. You will connect the assistant to the existing search service by providing the endpoint, index name, and authentication key, allowing it to retrieve relevant HR information dynamically. This integration enables the assistant to leverage semantic search capabilities, ensuring responses are accurate, contextually relevant, and based on the most up-to-date organizational data.
 
+### Task 5: Add the Azure AI Search as a knowledge source
+
+In this task, you will be adding **Azure AI Search** as a **knowledge source** for your **HR Knowledge Assistant** in **Copilot Studio**. You will connect the assistant to the existing search service by providing the endpoint, index name, and authentication key, allowing it to retrieve relevant HR information dynamically. This integration enables the assistant to leverage semantic search capabilities, ensuring responses are accurate, contextually relevant, and based on the most up-to-date organizational data.
 
 1.  Select the **Overview (1)** page of the agent, select **Add knowledge (2)**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image65-1.png)
 
-2. Select Azure AI Search from the list of knowledge sources available.
+1. Select Azure AI Search from the list of knowledge sources available.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image66.png)
 
-3.  Click on the **drop-down (1)** next to **Not connected** in the next screen and select **Create new connection (2)**.
+1.  Click on the **drop-down (1)** next to **Not connected** in the next screen and select **Create new connection (2)**.
 
     ![A screenshot of a search engine AI-generated content may be
 incorrect.](./media/image67.png)
 
-4.  Enter the **Endpoint url (1)** and the **Admin key (2)** values which we saved to a notepad in a previous exercise and then click on **Create (3)** to create the connection.
+1.  Enter the **Endpoint url (1)** and the **Admin key (2)** values which we saved to a notepad in a previous exercise and then click on **Create (3)** to create the connection.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image68-1.png)
 
-5.  Once the connection is established, the available index is listed and already selected. Click on **Add to agent**.
+1.  Once the connection is established, the available index is listed and already selected. Click on **Add to agent**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image69.png)
 
-6.  The AI Search service is added as a knowledge source to the agent and is in **Ready** state now. Ensure that the **Web search** option is **disabled** in the Knowledge section.
+1.  The AI Search service is added as a knowledge source to the agent and is in **Ready** state now. Ensure that the **Web search** option is **disabled** in the Knowledge section.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image70.png)
 
-7.  Now, let’s test the agent using the same question we tried earlier. Before doing so, select the **Start a new session** button to begin a new session.
+1.  Now, let’s test the agent using the same question we tried earlier. Before doing so, select the **Start a new session** button to begin a new session.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/im19.png)
 
-8.  In the Test pane, enter **How many days of Maternity leaves can I avail?** and click **Send.**
+1.  In the Test pane, enter **How many days of Maternity leaves can I avail?** and click **Send.**
 
     ![image](./media/image71.png)
 
-9.  You can see that the response from the agent now is from the document uploaded in the AI Search service.
+1.  You can see that the response from the agent now is from the document uploaded in the AI Search service.
 
     ![image](./media/im6.png)
 
     >**Note:** The output may vary; it won’t be exactly the same, but it will look similar to this.
 
-   
 ## Summary
+
 In this lab, you have completed the following tasks:
 - Configured an Azure AI Search instance
 - Configured the Storage Account
