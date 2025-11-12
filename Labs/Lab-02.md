@@ -174,7 +174,7 @@ In this task, you will be creating a **Knowledge Assistant agent** in **Copilot 
      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/image59.png)
 
-    >**Note:** Make sure that you are in the correct enviornment which you created in **Lab-01**.
+     >**Note:** Make sure that you are in the correct enviornment which you created in **Lab-01**.
     
      ![A screenshot of a computer AI-generated content may be
 incorrect.](./media/im18.png)
@@ -198,7 +198,7 @@ incorrect.](./media/image61.png)
 
      ![image](./media/image64.png)
 
-    >**Note:** The output may differ slightly, and while it won’t be identical, it will appear similar to the example shown in the screenshot.
+     >**Note:** The output may differ slightly, and while it won’t be identical, it will appear similar to the example shown in the screenshot.
 
 ### Task 5: Add the Azure AI Search as a knowledge source
 
@@ -247,7 +247,7 @@ incorrect.](./media/im19.png)
 
      ![image](./media/im6.png)
 
-    >**Note:** The output may vary; it won’t be exactly the same, but it will look similar to this.
+     >**Note:** The output may vary; it won’t be exactly the same, but it will look similar to this.
 
 ## Summary
 
