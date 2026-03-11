@@ -174,11 +174,11 @@ incorrect.](./media/im18.png)
 1. The agent creation page gets opened. Describe the agent in the **Describe** tab. Enter **You are a Knowledge assistant agent
 for HR who will answer questions related to leaves and leave policies to the employees** and select **Send**.
 
-   ![](./media/hrimg9.png)
+     ![](./media/hrimg9.png)
 
 1. Now, a base agent will be created. Please wait till the agent provisioning completes.
 
-   ![](./media/hrimg10.png)
+     ![](./media/hrimg10.png)
 
 1. Once the agent is created, in the **Test** pane, enter **How many days of Maternity leaves can I avail? (1)** and click **Send (2)**
 
